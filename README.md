@@ -1,10 +1,17 @@
+# Env
+```
+conda env create -f env.yml
+```
+```
+conda activate vect_compress
+```
 # train_vq.py
 ```
-python3 train_vq.py --save-dir test-vq --vq-alpha 2.5 --codebook-size 512
+python train_vq.py --save-dir test-vq --vq-alpha 2.5 --codebook-size 512
 ```
 # train_compai.py
 ```
-python3 train_compai.py --save-dir test-compai --lambda 1e-2 
+python train_compai.py --save-dir test-compai --lambda 1e-2 
 ```
 
 
